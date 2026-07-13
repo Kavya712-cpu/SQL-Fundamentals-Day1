@@ -1,19 +1,52 @@
+
+Query 1
 SELECT * FROM sales;
 
-SELECT customer_name, amount FROM sales;
+Query 2
+SELECT Customer_name, Amount
+FROM sales;
 
-SELECT * FROM sales WHERE amount > 5000;
+Query 3
+SELECT *
+FROM sales
+WHERE Amount > 5000;
 
-SELECT * FROM sales WHERE city = 'Bangalore';
+Query 4
+SELECT *
+FROM sales
+WHERE City = 'Bangalore';
 
-SELECT * FROM sales WHERE amount > 5000 AND city = 'Bangalore';
+Query 5
+SELECT *
+FROM sales
+WHERE Amount > 5000 AND City = 'Bangalore';
 
-SELECT * FROM sales WHERE city = 'Bangalore' OR city = 'Mysore';
+Query 6
+SELECT *
+FROM sales
+WHERE City = 'Bangalore' OR City = 'Mysore';
 
-SELECT * FROM sales WHERE NOT city = 'Bangalore';
+Query 7
+SELECT *
+FROM sales
+WHERE NOT City = 'Bangalore';
 
-SELECT * FROM sales WHERE customer_name LIKE 'A%';
+Query 8
+SELECT *
+FROM sales
+WHERE Customer_name LIKE 'A%';
 
-SELECT * FROM sales WHERE city IN ('Bangalore','Mysore','Chennai');
+Query 9 
+SELECT *
+FROM sales
+WHERE City IN ('Bangalore', 'Mysore', 'Chennai');
 
-SELECT * FROM sales WHERE amount BETWEEN 2000 AND 8000;
+Query 10
+SELECT *
+FROM sales
+WHERE Amount BETWEEN 2000 AND 8000;
+
+Query 11
+SELECT *
+FROM sales
+WHERE Phone IS NULL;
