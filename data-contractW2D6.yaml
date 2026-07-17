@@ -1,0 +1,29 @@
+dataContractSpecification: 0.9.3
+
+id: customer-data-v1
+
+info:
+  owner: data-team
+  consumer: analytics-team
+  sla: "99% freshness within 2 hours"
+
+models:
+  customers:
+    fields:
+      CustomerID:
+        type: integer
+        required: true
+        unique: true
+
+      Name:
+        type: string
+        required: true
+
+      Age:
+        type: integer
+        minimum: 18
+
+      Email:
+        type: string
+        pii: true
+        classification: confidential
