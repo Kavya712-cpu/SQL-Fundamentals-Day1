@@ -1,0 +1,3 @@
+﻿# W7D1 - PandasAI CSV Analysis
+
+Loaded an Indian startup funding dataset and practiced PandasAI queries with error handling.
