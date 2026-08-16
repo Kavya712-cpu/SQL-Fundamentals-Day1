@@ -1,0 +1,3 @@
+# AutoViz vs SweetViz
+
+AutoViz and SweetViz are both useful for automated exploratory data analysis. AutoViz quickly generates different visualizations and helps identify patterns, distributions, and relationships in the dataset. SweetViz provides a more structured and interactive HTML report with dataset statistics, missing values, and feature associations. AutoViz is useful when we want quick visual exploration, while SweetViz is better for presenting a complete analysis report to business stakeholders. For this project, I would recommend SweetViz for stakeholders because its interactive report is easier to understand and share, while AutoViz is useful during the analyst's initial exploration.
