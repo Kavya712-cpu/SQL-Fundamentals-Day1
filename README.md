@@ -4,11 +4,15 @@
 
 \## Project Overview
 
+
+
 This project is an interactive Sales Analysis Dashboard built using Streamlit and Python.
 
 
 
 \## Features
+
+
 
 \- Display sales dataset
 
@@ -48,6 +52,8 @@ streamlit run app1.py
 
 \## Tech Stack
 
+
+
 \- Python
 
 \- Streamlit
@@ -58,15 +64,19 @@ streamlit run app1.py
 
 \## Deployment
 
+
+
 Deployment platform: Render
 
 
 
-Deployment URL: To be added after deployment.
+Deployment URL: https://sql-fundamentals-day1.onrender.com/
 
 
 
 \## Known Limitations
+
+
 
 \- Uses a static CSV dataset.
 
@@ -78,5 +88,7 @@ Deployment URL: To be added after deployment.
 
 \## Project Status
 
-The dashboard has been tested locally and is ready for deployment.
+
+
+The dashboard has been successfully deployed and tested on Render.
 
